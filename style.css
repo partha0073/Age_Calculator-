@@ -1,0 +1,50 @@
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.labelinput{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.submit{
+    margin-left: 46%;
+    margin-top: 2%;
+    color: #ffff;
+    background-color: #04A;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+  }
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+  
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    display: flex;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .calculator {
+      padding: 10px;
+    }
+  
+    button {
+      padding: 8px 16px;
+    }
+}
+  
